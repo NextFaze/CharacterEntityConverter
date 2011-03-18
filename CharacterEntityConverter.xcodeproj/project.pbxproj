@@ -15,6 +15,18 @@
 		B5B948921332F0410047564A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B948901332F0410047564A /* InfoPlist.strings */; };
 		B5B948951332F0410047564A /* CharacterEntityConverterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B5B948941332F0410047564A /* CharacterEntityConverterTests.h */; };
 		B5B948971332F0410047564A /* CharacterEntityConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948961332F0410047564A /* CharacterEntityConverterTests.m */; };
+		B5B948A41332F0570047564A /* CharacterEntityConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B948A01332F0570047564A /* CharacterEntityConverter.h */; };
+		B5B948A51332F0570047564A /* CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948A11332F0570047564A /* CharacterEntityConverter.m */; };
+		B5B948A61332F0570047564A /* CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948A11332F0570047564A /* CharacterEntityConverter.m */; };
+		B5B948A71332F0570047564A /* CharacterEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B948A21332F0570047564A /* CharacterEntity.h */; };
+		B5B948A81332F0570047564A /* CharacterEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948A31332F0570047564A /* CharacterEntity.m */; };
+		B5B948A91332F0570047564A /* CharacterEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948A31332F0570047564A /* CharacterEntity.m */; };
+		B5B948AC13330A150047564A /* NSString+CharacterEntityConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B948AA13330A150047564A /* NSString+CharacterEntityConverter.h */; };
+		B5B948AD13330A150047564A /* NSString+CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948AB13330A150047564A /* NSString+CharacterEntityConverter.m */; };
+		B5B948AE13330A150047564A /* NSString+CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948AB13330A150047564A /* NSString+CharacterEntityConverter.m */; };
+		B5B948B113330A350047564A /* NSMutableString+CharacterEntityConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B948AF13330A350047564A /* NSMutableString+CharacterEntityConverter.h */; };
+		B5B948B213330A350047564A /* NSMutableString+CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948B013330A350047564A /* NSMutableString+CharacterEntityConverter.m */; };
+		B5B948B313330A350047564A /* NSMutableString+CharacterEntityConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B948B013330A350047564A /* NSMutableString+CharacterEntityConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,15 +42,24 @@
 /* Begin PBXFileReference section */
 		B5B948771332F0410047564A /* libCharacterEntityConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCharacterEntityConverter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B9487A1332F0410047564A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B5B9487E1332F0410047564A /* CharacterEntityConverter-Prefix.pch */ = {isa = PBXFileReference; path = "CharacterEntityConverter-Prefix.pch"; sourceTree = "<group>"; };
+		B5B9487E1332F0410047564A /* CharacterEntityConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CharacterEntityConverter-Prefix.pch"; sourceTree = "<group>"; };
 		B5B948841332F0410047564A /* CharacterEntityConverterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharacterEntityConverterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B948851332F0410047564A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B948881332F0410047564A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B5B9488F1332F0410047564A /* CharacterEntityConverterTests-Info.plist */ = {isa = PBXFileReference; path = "CharacterEntityConverterTests-Info.plist"; sourceTree = "<group>"; };
+		B5B9488F1332F0410047564A /* CharacterEntityConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CharacterEntityConverterTests-Info.plist"; sourceTree = "<group>"; };
 		B5B948911332F0410047564A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5B948931332F0410047564A /* CharacterEntityConverterTests-Prefix.pch */ = {isa = PBXFileReference; path = "CharacterEntityConverterTests-Prefix.pch"; sourceTree = "<group>"; };
+		B5B948931332F0410047564A /* CharacterEntityConverterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CharacterEntityConverterTests-Prefix.pch"; sourceTree = "<group>"; };
 		B5B948941332F0410047564A /* CharacterEntityConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterEntityConverterTests.h; sourceTree = "<group>"; };
 		B5B948961332F0410047564A /* CharacterEntityConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterEntityConverterTests.m; sourceTree = "<group>"; };
+		B5B948A01332F0570047564A /* CharacterEntityConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterEntityConverter.h; sourceTree = "<group>"; };
+		B5B948A11332F0570047564A /* CharacterEntityConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterEntityConverter.m; sourceTree = "<group>"; };
+		B5B948A21332F0570047564A /* CharacterEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterEntity.h; sourceTree = "<group>"; };
+		B5B948A31332F0570047564A /* CharacterEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterEntity.m; sourceTree = "<group>"; };
+		B5B948AA13330A150047564A /* NSString+CharacterEntityConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CharacterEntityConverter.h"; sourceTree = "<group>"; };
+		B5B948AB13330A150047564A /* NSString+CharacterEntityConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CharacterEntityConverter.m"; sourceTree = "<group>"; };
+		B5B948AF13330A350047564A /* NSMutableString+CharacterEntityConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+CharacterEntityConverter.h"; sourceTree = "<group>"; };
+		B5B948B013330A350047564A /* NSMutableString+CharacterEntityConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+CharacterEntityConverter.m"; sourceTree = "<group>"; };
+		B5B9495413332C650047564A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +88,7 @@
 		B5B9486C1332F0410047564A = {
 			isa = PBXGroup;
 			children = (
+				B5B9495413332C650047564A /* README.md */,
 				B5B9487C1332F0410047564A /* CharacterEntityConverter */,
 				B5B9488D1332F0410047564A /* CharacterEntityConverterTests */,
 				B5B948791332F0410047564A /* Frameworks */,
@@ -96,6 +118,14 @@
 		B5B9487C1332F0410047564A /* CharacterEntityConverter */ = {
 			isa = PBXGroup;
 			children = (
+				B5B948A01332F0570047564A /* CharacterEntityConverter.h */,
+				B5B948A11332F0570047564A /* CharacterEntityConverter.m */,
+				B5B948A21332F0570047564A /* CharacterEntity.h */,
+				B5B948A31332F0570047564A /* CharacterEntity.m */,
+				B5B948AA13330A150047564A /* NSString+CharacterEntityConverter.h */,
+				B5B948AB13330A150047564A /* NSString+CharacterEntityConverter.m */,
+				B5B948AF13330A350047564A /* NSMutableString+CharacterEntityConverter.h */,
+				B5B948B013330A350047564A /* NSMutableString+CharacterEntityConverter.m */,
 				B5B9487D1332F0410047564A /* Supporting Files */,
 			);
 			path = CharacterEntityConverter;
@@ -136,6 +166,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B948A41332F0570047564A /* CharacterEntityConverter.h in Headers */,
+				B5B948A71332F0570047564A /* CharacterEntity.h in Headers */,
+				B5B948AC13330A150047564A /* NSString+CharacterEntityConverter.h in Headers */,
+				B5B948B113330A350047564A /* NSMutableString+CharacterEntityConverter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B948A51332F0570047564A /* CharacterEntityConverter.m in Sources */,
+				B5B948A81332F0570047564A /* CharacterEntity.m in Sources */,
+				B5B948AD13330A150047564A /* NSString+CharacterEntityConverter.m in Sources */,
+				B5B948B213330A350047564A /* NSMutableString+CharacterEntityConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B948971332F0410047564A /* CharacterEntityConverterTests.m in Sources */,
+				B5B948A61332F0570047564A /* CharacterEntityConverter.m in Sources */,
+				B5B948A91332F0570047564A /* CharacterEntity.m in Sources */,
+				B5B948AE13330A150047564A /* NSString+CharacterEntityConverter.m in Sources */,
+				B5B948B313330A350047564A /* NSMutableString+CharacterEntityConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
