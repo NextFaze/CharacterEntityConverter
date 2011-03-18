@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CharacterEntityConverterTests' target in the 'CharacterEntityConverterTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
