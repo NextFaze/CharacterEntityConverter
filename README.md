@@ -1,16 +1,13 @@
 
-CharacterEntityConverter
-========================
+# CharacterEntityConverter
 
 CharacterEntityConverter - Objective C library for character entity conversions
 
-Installation
-------------
+## Installation
 
-    > git clone git://github.com/2moro/CharacterEntityConverter.git
+    > git clone git://github.com/NextfazeSD/CharacterEntityConverter.git
 
-Interfaces
-----------
+## Interfaces
 
 CharacterEntityConverter:
 
@@ -34,8 +31,7 @@ NSMutableString+CharacterEntityConverter:  (NSMutableString category)
     - (void)decodeEntities;
     - (void)decodeEntitiesForXML;
 
-Synopsis
---------
+## Synopsis
 
 decoding character entities
 
@@ -50,4 +46,12 @@ encoding character entities
 
     [@"foo & bar" stringByEncodingEntities];          // -> "foo &amp; bar"
     [@"foo & bar ™" stringByEncodingEntitiesForXML];   // -> "foo &amp; bar &#8482;" (&trade; is not valid in XML)
+    
+## License
+
+WordPressSyncer is licensed under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Please see the [LICENSE](https://github.com/NextfazeSD/CharacterEntityConverter/blob/master/LICENSE) file for full details.
+
+## Credits
+
+WordPressSyncer is brought to you by [Andrew Williams](http://github.com/sobakasu) and supported by the [NextFaze](http://www.nextfaze.com) team and the GitHub community.
 
