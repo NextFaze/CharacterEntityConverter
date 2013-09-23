@@ -218,6 +218,7 @@
 		B5B9486E1332F0410047564A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "2moro mobile";
 			};
 			buildConfigurationList = B5B948711332F0410047564A /* Build configuration list for PBXProject "CharacterEntityConverter" */;
@@ -315,7 +316,6 @@
 		B5B948981332F0410047564A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -324,6 +324,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -331,7 +332,6 @@
 		B5B948991332F0410047564A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -348,6 +348,7 @@
 				DSTROOT = /tmp/CharacterEntityConverter.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharacterEntityConverter/CharacterEntityConverter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +361,7 @@
 				DSTROOT = /tmp/CharacterEntityConverter.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharacterEntityConverter/CharacterEntityConverter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,6 +377,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharacterEntityConverterTests/CharacterEntityConverterTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CharacterEntityConverterTests/CharacterEntityConverterTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -395,6 +398,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharacterEntityConverterTests/CharacterEntityConverterTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CharacterEntityConverterTests/CharacterEntityConverterTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -424,6 +428,7 @@
 				B5B9489C1332F0410047564A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5B9489D1332F0410047564A /* Build configuration list for PBXNativeTarget "CharacterEntityConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				B5B9489F1332F0410047564A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

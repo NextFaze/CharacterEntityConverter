@@ -1,6 +1,5 @@
 //
 //  HTMLEntityConverter.h
-//  WordPressSyncer
 //
 //  Created by Andrew Williams on 18/03/11.
 //  Copyright 2013 NextFaze. All rights reserved.
@@ -15,6 +14,9 @@
 #define LOG(format, ...)
 #endif
 #endif
+
+#import "NSString+CharacterEntityConverter.h"
+#import "NSMutableString+CharacterEntityConverter.h"
 
 @interface CharacterEntityConverter : NSObject {
     

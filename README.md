@@ -49,9 +49,9 @@ encoding character entities
     
 ## License
 
-WordPressSyncer is licensed under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Please see the [LICENSE](https://github.com/NextfazeSD/CharacterEntityConverter/blob/master/LICENSE) file for full details.
+CharacterEntityConverter is licensed under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Please see the [LICENSE](https://github.com/NextfazeSD/CharacterEntityConverter/blob/master/LICENSE) file for full details.
 
 ## Credits
 
-WordPressSyncer is brought to you by [Andrew Williams](http://github.com/sobakasu) and supported by the [NextFaze](http://www.nextfaze.com) team and the GitHub community.
+CharacterEntityConverter is brought to you by [Andrew Williams](http://github.com/sobakasu) and supported by the [NextFaze](http://www.nextfaze.com) team and the GitHub community.
 
