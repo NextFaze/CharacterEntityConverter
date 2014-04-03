@@ -305,7 +305,7 @@ static NSDictionary *entityByCode = nil;
 + (int)hexToInt:(NSString *)hex {
     int value = 0;
     const char *hexStr = [[hex lowercaseString] UTF8String];
-    int len = strlen(hexStr);
+    unsigned long len = strlen(hexStr);
 
     for(int i = 0; i < len; i++) {
         char ch = hexStr[len - i - 1];
