@@ -395,7 +395,7 @@ static NSDictionary *entityByCode = nil;
         LOG(@"%@ -> %@", [str substringWithRange:rangeEntity], replacement);
         [str replaceCharactersInRange:rangeEntity withString:replacement];
 
-        int lengthdiff = [replacement length] - rangeEntity.length;
+        unsigned long lengthdiff = [replacement length] - rangeEntity.length;
         if(lengthdiff + (int)rangeSearch.length <= 0) break; // string finished
         
         rangeSearch.length += lengthdiff;
